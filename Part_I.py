@@ -120,7 +120,7 @@ class MovieLens100kRecommender:
         try:
             correlation, _ = pearsonr(user1_common, user2_common)
             return correlation if not np.isnan(correlation) else 0
-        except:
+        except Exception:
             return 0
 
     def custom_similarity(self, user1: int, user2: int) -> float:
