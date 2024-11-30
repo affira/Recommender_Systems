@@ -3,7 +3,6 @@ import numpy as np
 from typing import List, Tuple, Dict
 from scipy.spatial.distance import cosine
 import warnings
-from collections import defaultdict
 
 warnings.filterwarnings('ignore')
 

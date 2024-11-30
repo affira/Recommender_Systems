@@ -1,10 +1,10 @@
 import pandas as pd
 import numpy as np
-from typing import List, Tuple, Dict
 from scipy.stats import pearsonr
 import matplotlib.pyplot as plt
 from collections import defaultdict
 import warnings
+from typing import List, Tuple
 
 # Suppress warnings
 warnings.filterwarnings('ignore')
